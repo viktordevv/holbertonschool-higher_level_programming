@@ -28,3 +28,5 @@ The Zen of Python, by Tim Peters
 
 Puedes visitar este link en español para ver ejemplos:
 https://elpythonista.com/zen-de-python
+
+Seguiremos informando
