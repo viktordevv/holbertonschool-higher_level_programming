@@ -27,7 +27,7 @@
 <li>You are not allowed to use <code>*</code> for importing or <code>__import__</code></li>
 <li>Your code should not be executed when imported - by using <code>__import__</code>, like the example below</li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/0-add.py">0-add.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ cat add_0.py
 #!/usr/bin/python3
 def add(a, b):
@@ -94,7 +94,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 <li>You are not allowed to use <code>*</code> for importing or <code>__import__</code></li>
 <li>Your code should not be executed when imported</li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/1-calculation.py">1-calculation.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ cat calculator_1.py
 #!/usr/bin/python3
 def add(a, b):
@@ -241,7 +241,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 <li>The number of elements of <code>argv</code> can be retrieved by using: <code>len(argv)</code></li>
 <li>You do not have to fully understand lists yet, but imagine that <code>argv</code> can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.</li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/2-args.py">2-args.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ ./2-args.py 
 0 arguments.
 $ amonkeyprogrammer@ubuntu:~/0x02$ ./2-args.py Hello
@@ -310,7 +310,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
     </clipboard-copy>
   </div></div>
 <p dir="auto">Last but not least, your program should also handle big numbers. And the good news is: if your program works for the above example, it will work for the following example:</p>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/3-infinite_add.py">3-infinite_add.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ ./3-infinite_add.py 1111111111111111111111111111111111111111111111111111111111112222222222222222222222222222222222223435467866765443534434222222254444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555666666666666666666666666666666777777777777777777777777777777888888888888888888888888888888899999999999999999999999990000000000000000000 11111111111111111111111111111111111111111111111111222222222222222222222222222333333333333333333334567788888899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 11111111111111111111111111111111111111111111111111222222222222222222222222222333333333333333333334568900000011111111111111111111111111111111111111111111111111112222222222222222222222222222222222223435467866765443534434222222254444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555666666666666666666666666666666777777777777777777777777777777888888888888888888888888888888899999999999999999999999989999999999999999999
 $ amonkeyprogrammer@ubuntu:~/0x02$
@@ -334,7 +334,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 <li>Your code should not be executed when imported</li>
 <li>Make sure you are running your code in Python3.4.x (<code>hidden_4.pyc</code> has been compiled with this version)</li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/4-hidden_discovery.py">4-hidden_discovery.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ curl -Lso "hidden_4.pyc" "https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc"
 $ amonkeyprogrammer@ubuntu:~/0x02$ ./4-hidden_discovery.py | sort
 my_secret_santa
@@ -362,7 +362,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 <li>You are not allowed to use <code>*</code> for importing or <code>__import__</code></li>
 <li>Your code should not be executed when imported</li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/5-variable_load.py">5-variable_load.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ cat variable_load_5.py
 #!/usr/bin/python3
 a = 98
@@ -422,7 +422,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 <li>You are not allowed to use <code>*</code> for importing or <code>__import__</code></li>
 <li>Your code should not be executed when imported</li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/100-my_calculator.py">100-my_calculator.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ cat calculator_1.py
 #!/usr/bin/python3
 def add(a, b):
@@ -564,7 +564,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 <li>Your program should be maximum 2 lines long</li>
 <li>You are not allowed to use <code>print</code> or <code>eval</code> or <code>open</code> or <code>import sys</code> in your file <code>101-easy_print.py</code></li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/101-easy_print.py">101-easy_print.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ ./101-easy_print.py
 #pythoniscool
 $ amonkeyprogrammer@ubuntu:~/0x02$
@@ -582,7 +582,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
   </div></div>
 <h2 dir="auto"><a id="user-content-bytecode---python-3" class="anchor" aria-hidden="true" href="#bytecode---python-3"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>ByteCode -&gt; Python #3</h2>
 <p dir="auto">Write the Python function <code>def magic_calculation(a, b):</code> that does exactly the same as the following Python bytecode:</p>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/102-magic_calculation.py">102-magic_calculation.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">  3           0 LOAD_CONST               1 (0)
               3 LOAD_CONST               2 (('add', 'sub'))
               6 IMPORT_NAME              0 (magic_calculation_102)
@@ -700,7 +700,7 @@ $ amonkeyprogrammer@ubuntu:~/0x02$" tabindex="0" role="button">
 </ul>
 </li>
 </ul>
-<p dir="auto"><strong>Solution:</strong> <a href="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x02-python-import_modules/103-fast_alphabet.py">103-fast_alphabet.py</a></p>
+
 <div class="snippet-clipboard-content position-relative overflow-auto"><pre class="notranslate"><code class="notranslate">$ amonkeyprogrammer@ubuntu:~/0x02$ ./103-fast_alphabet.py
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 $ amonkeyprogrammer@ubuntu:~/0x02$ wc -l 103-fast_alphabet.py
