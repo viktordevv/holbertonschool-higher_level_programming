@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-    raise TypeError
+    raise TypeError("error message")
