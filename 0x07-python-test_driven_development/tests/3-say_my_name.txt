@@ -14,10 +14,6 @@ Basic usage:
     >>> say_my_name("Carlos", "Smith")
     My name is Carlos Smith
 
-First name only input:
-    >>> say_my_name("Viktor")
-    My name is Viktor
-
 Non string input:
     >>> say_my_name(4, 3)
     Traceback (most recent call last):
