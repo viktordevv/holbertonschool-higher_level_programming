@@ -9,8 +9,7 @@
 def add_integer(a, b=98):
     """ add_integer - add two integers
         a: first integer
-        b: second integer
-        default value = 98"""
+        b: second integer"""
 
     if type(a) == float or type(b) == float:
         a = int(a)
@@ -21,6 +20,7 @@ def add_integer(a, b=98):
         raise TypeError("b must be an integer")
     else:
         return a + b
+
 
 if __name__ == "__main__":
     import doctest
