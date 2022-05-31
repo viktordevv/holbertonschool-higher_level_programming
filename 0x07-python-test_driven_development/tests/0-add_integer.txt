@@ -40,11 +40,11 @@ importing function from module:
     ...
     TypeError: a must be an integer
 
-7. Test with firs arg float:
+7. Test with first arg float:
     >>> add_integer(100.3, -2)
     98
 
-8. Test with firs arg float:
+8. Test with first arg float:
     >>> add_integer(50, 20.5)
     70
 
@@ -73,8 +73,8 @@ importing function from module:
     TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 
 13. Test with two floats:
-    >>> add_integer(21.5, 21.5)
-    43
+    >>> add_integer(20.0, 20.0)
+    40
 
 14. Test one negative float:
     >>> add_integer(-95.5)
