@@ -4,7 +4,5 @@ use of inheritance.
 """
 
 def lookup(obj):
-    """
-    This function returns attributes 
-    """
+    """This function returns attributes"""
     return dir(obj)
