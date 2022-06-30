@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-use of inheritance.
-"""
+"""use of inheritance."""
+
 
 def lookup(obj):
     """This function returns attributes"""
