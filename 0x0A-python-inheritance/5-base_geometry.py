@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-contains the class Base
-"""
+"""contains the class Base"""
 
 
 class BaseGeometry:
