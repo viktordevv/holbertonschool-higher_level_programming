@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """
-This program demonstrates the use of inheritance.
+use of inheritance.
 """
-
 
 def lookup(obj):
     """
-    This function returns the list of attributes 
+    This function returns attributes 
     """
     return dir(obj)
