@@ -2,6 +2,6 @@
 """contains the is_kind_of_class"""
 
 
-def inherits_from(obj, a_class):
-    """ inherited else false"""
-    return (issubclass(type(obj), a_class) and type(obj) != a_class)
+def is_kind_of_class(obj, a_class):
+    """obj is an instance"""
+    return (isinstance(obj, a_class))
