@@ -1,3 +1,3 @@
--- Show all databases
+-- Show all databases in mysql
 
-show databases;
+SHOW DATABASES;
