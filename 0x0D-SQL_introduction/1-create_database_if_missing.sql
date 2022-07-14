@@ -1,3 +1,3 @@
--- Script that lists all databases of your MySQL server
+-- Write a script that creates the database hbtn_0c_0 in your MySQL server
 
 DROP DATABASE IF EXISTS hbtn_0c_0;
