@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Module 1-my_list
-define the child class MyList
+"""Module my_list
+define the  class MyList
 """
 
 
@@ -10,8 +10,3 @@ class MyList(list):
     def print_sorted(self):
         """print list in sorted order """
         print(sorted(self))
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testfile("tests/1-my_list.txt")
