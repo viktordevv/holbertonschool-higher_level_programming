@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""Module my_list
-define the  class MyList
-"""
+"""Module my_list define the  class MyList"""
 
 
 class MyList(list):
