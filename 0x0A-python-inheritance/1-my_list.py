@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-'''print mylist
+'''
+Print my list in sorted order
 '''
 
 
 class MyList(list):
-    """subclass of list"""
+    """subclass for print_sorted"""
     def print_sorted(self):
         """prints the sorted list"""
         print(sorted(self))
-        
