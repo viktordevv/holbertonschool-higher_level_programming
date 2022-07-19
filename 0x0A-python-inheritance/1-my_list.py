@@ -1,10 +1,18 @@
 #!/usr/bin/python3
-''' Print my list in sorted order'''
+"""Module 1-my_list
+define the child class MyList
+"""
 
 
 class MyList(list):
-    """subclass for print_sorted"""
-    
+    """ create subclass MyList """
+
     def print_sorted(self):
-        """prints the sorted list"""
+        """print list in sorted order """
         print(sorted(self))
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testfile("tests/1-my_list.txt")
+    
