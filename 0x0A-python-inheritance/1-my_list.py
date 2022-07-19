@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-'''
-Print my list in sorted order
-'''
+''' Print my list in sorted order'''
 
 
 class MyList(list):
