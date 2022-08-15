@@ -11,7 +11,7 @@ if (size) {
     }
 
     if (p === size) {
-      console.log("");
+      console.log('');
     }
   }
 } else {
