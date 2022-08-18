@@ -8,7 +8,7 @@ module.exports = class Square extends Rectangle {
     super(size, size);
   }
 
-  double() {
+  double () {
     super.double();
   }
 };
