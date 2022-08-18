@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// script that imports a dictionary of occurrences
+// Returns the number of occurrences.
 
 const dict = require('./101-data.js').dict;
 const newDict = {};
